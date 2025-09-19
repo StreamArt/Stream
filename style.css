@@ -159,3 +159,38 @@ body {
 .card:hover .overlay {
   opacity: 1;
 }
+/* 🔹 Estilos del header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #111;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header .logo:hover {
+  color: #00bcd4;
+}
+
+.header .socials a {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.header .socials a:hover {
+  color: #00bcd4;
+}
